@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --hue: 0;
+    --primary: hsl(var(--hue), 0%, 10%);
+    --primary-light: hsl(var(--hue), 0%, 50%);
+    --primary-super-light: hsl(var(--hue), 0%, 95%);
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    padding-top: 1rem;
+}
+
+.container{
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: var(--primary);
+    text-transform: uppercase;
+}
+.form{
+    border: 0.5px solid var(--primary);
+    display: flex;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-super-light);
+    height: 60px;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+.todo-title-input{
+    width: 90%;
+    height: 70%;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    outline: none;
+}
+.todo-form-button{
+    width: 10%;
+    height: 70%;
+    background-color: var(--primary);
+    color: var(--primary-super-light);
+    border: none;
+    font-size: 1rem;
+    font-family: inherit;
+    border-radius: 0.3rem;
+}
+.todos{
+    margin-top: 1rem;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+.todo{
+    background-color: #232323;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    height: 42px;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    flex-basis: auto;
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 2px 10px gray;
+}
+.toggle-delete{
+    display: flex;
+    gap: 0.5rem;
+    
+}
+.delete-todo-button{
+    font-family: inherit;
+    font-weight: bold;
+    width: 20px;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.todo-checkbox{
+    width: 20px;
+    outline: none;
+    border: none;
+    accent-color: #fff;
+}
+.todo-title{
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--primary-super-light);
+    text-transform: capitalize;
+    
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.8;
+}
+
+
+@media (max-width: 500px){
+    .todo{
+        background-color: #232323;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem;
+        height: 42px;
+        padding: 1rem;
+        border-radius: 0.3rem;
+        flex-basis: 100%;
+        width: auto;
+        height: auto;
+        box-shadow: 1px 2px 10px gray;
+    }
+}
