@@ -13,6 +13,7 @@ Welcome to the Awesome ToDo List App! This web application allows you to efficie
 
 # Screenshots
 ![ToDo List App](./images/todoListPC.png)
+![Todo List App](./images/todoListMobile.jpg)
 # Getting Started
 1. Clone the repository:
 
