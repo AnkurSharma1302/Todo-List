@@ -31,7 +31,7 @@ git clone https://github.com/your-username/todo-list.git
 
 # How to Use
 - **Add Task**: Enter your task, click the 'Add' button or press 'Enter'.
-- **Mark as Completed**: Click on the task to mark it as completed.
+- **Mark as Completed**: Click on the checkbox to mark it as completed.
 - **Remove Task**: Hover over a task and click the 'X' button to remove it.
 
 ## Contributing
