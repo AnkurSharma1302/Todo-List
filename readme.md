@@ -9,7 +9,7 @@ Welcome to the Awesome ToDo List App! This web application allows you to efficie
 - **Responsive Design**: Access your ToDo list from any device – desktop, tablet, or mobile.
 
 # Demo
-Click here to see the live demo <!-- Update with the actual link when hosting your app -->
+[Click here to see the live demo](https://ankursharma1302.github.io/Todo-List/) <!-- Update with the actual link when hosting your app -->
 
 # Screenshots
 ![ToDo List App](./images/todoListPC.png)
